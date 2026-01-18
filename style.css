@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://plus.unsplash.com/premium_vector-1721836254637-45309a35bc18?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-image 0.8s ease-in-out;
+}
+
+.app {
+    background: rgba(255, 255, 255, 0.552);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3498db;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#weatherResult {
+    margin-top: 15px;
+}
